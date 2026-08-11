@@ -1,0 +1,5 @@
+[submodule "assets"]
+	# Substitute this for your own assets submodule, if this ever gets used
+	# as its own project.
+	path = assets
+	url = https://github.com/Joao-POP/esatelie-assets.git
