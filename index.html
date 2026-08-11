@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link href="styles/print.css" rel="stylesheet" media="print" />
         <link href="styles/style.css" rel="stylesheet" media="all" />
-        <link href="styles/mobile.css" rel="stylesheet" />
+        <link href="styles/mobile.css" rel="stylesheet" media="screen" />
         <link href="styles/desktop.css" rel="stylesheet" media="screen and (width >= 600px)" />
         <link href="favicon.ico" rel="icon" />
         <script src="src/index.js" type="module" defer></script>
@@ -15,11 +15,11 @@
     </head>
     <body>
         <header>
-            <button id="hamburger-button"></button>
+            <button id="hamburger-button" class="ui"><img src="assets/ui/hamburger-button.svg" alt="Hamburger button" /></button>
             <a id="main-page-link" href="/" alt="Página inicial">
                 <img id="logo" src="assets/brand/logo.png" alt="Logomarca do Elizabeth Santos Ateliê" />
             </a>
-            <button id="search-button"></button>
+            <button id="search-button" class="ui"><img src="assets/ui/search-button.svg" alt="Search button" /></button>
         </header>
         <main></main>
         <footer></footer>

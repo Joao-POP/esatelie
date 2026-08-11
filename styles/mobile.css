@@ -1,0 +1,22 @@
+header {
+    --height: 48px;
+
+    position: top;
+    height: var(--height);
+    display: flex;
+    align-content: stretch;
+}
+
+#main-page-link {
+    flex-grow: 1;
+}
+
+button.ui {
+    border: 0;
+    width: var(--height); /* square button */
+    background-color: inherit;
+}
+
+footer {
+    position: bottom;
+}
